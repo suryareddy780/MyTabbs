@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:padding="8dp"
+    android:background="@color/lightGrayColor"
+    tools:context=".tab2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunflower"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/sunflower"
+        android:id="@+id/btn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+
+    </Button>>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rose"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/btn1"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/rose"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+
+    </Button>>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taj Mahal"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btn2"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/tajmahal"
+        android:textStyle="bold"
+        android:layout_weight="1">
+
+
+    </Button>>
+
+
+
+</LinearLayout>
